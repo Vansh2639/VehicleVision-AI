@@ -155,7 +155,7 @@ if uploaded_file:
 
         results = model.predict(
             image,
-            conf=0.5
+            conf=0.25
         )
 
     annotated_image = results[0].plot()
